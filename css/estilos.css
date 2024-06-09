@@ -1,0 +1,67 @@
+body {
+    margin: 0%;
+}
+
+#cabeza {
+    background-color: red;
+    background-image: url(/img/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+}
+
+#navegacion {
+    background-color: blue;
+    overflow: hidden;
+}
+
+#navegacion ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navegacion li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+#navegacion a {
+    text-decoration: none;
+    color: white;
+}
+
+#barraL {
+    background-color: red;
+    float: left;
+    width: 100px;
+    height: 500px;
+    padding: 10px;
+
+}
+
+#section1 {
+    background-image: url(/img/imagen_2024-06-09_143344075.png);
+    margin-left: 100px;
+    padding: 25px;
+    padding-left: 40px;
+    height: 500px;
+}
+
+article {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
